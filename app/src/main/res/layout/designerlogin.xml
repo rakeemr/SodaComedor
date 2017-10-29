@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="crmoviles.ac.tec.logincomedor.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="0.13"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="188dp"
+            android:layout_height="128dp"
+            android:id="@+id/btimgImagenFondo"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle"
+            android:layout_weight="1.16"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtTitulo"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.85"
+            android:textStyle="bold"
+            android:textSize="50dp"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtCarnet"
+        android:layout_gravity="left"
+        android:maxLength="10"
+        android:hint="Usuario"
+        android:textColorHint="@color/darkGray"
+        android:textColor="@color/darkGray"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:digits="1234567890"
+        android:singleLine="true"
+        android:layout_weight="0.03"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:drawableLeft="@drawable/profile"
+        android:paddingLeft="25dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/txtContraseña"
+        android:layout_gravity="left"
+        android:maxLength="10"
+        android:hint="Contraseña"
+        android:fontFamily="sans-serif-condensed"
+        android:textColorHint="@color/darkGray"
+        android:textColor="@color/darkGray"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:digits="1234567890"
+        android:singleLine="true"
+        android:layout_weight="0.03"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/candado"
+        android:paddingLeft="30dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recordarme"
+        android:textSize="20dp"
+        android:layout_weight="0.09"
+        android:textStyle="bold"
+        android:textColor="@color/darkGray"
+        android:buttonTint="@color/darkGray"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/cbEstado"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:background="@color/blue"
+        android:backgroundTintMode="screen"
+        android:enabled="false"
+        android:onClick="getPersonaInfo"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="LOG IN"
+        android:textColor="@color/blanco"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.tec.estebanblanco.pruebafirebase.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_below="@+id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal"
+            android:background="@drawable/background"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.89"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/nombreEst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.31"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Raquel Mora Rojas"
+                    android:layout_marginTop="7dp"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/saldoEst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saldo:"
+                    android:layout_weight="0.25"
+                    android:layout_marginLeft="6dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.09"
+                    android:layout_marginLeft="6dp">
+
+                    <TextView
+                        android:id="@+id/textoSubT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.14"
+                        android:text="Subtotal:"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:id="@+id/sumaPrecios"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/background">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

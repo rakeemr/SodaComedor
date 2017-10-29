@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Soda|TEC</string>
+    <string name="menucomidas">Menu</string>
+    <string name="mainacerca">Información sobre la Aplicación</string>
+    <string name="action_settings">Settings</string>
+    <string name="Imagen">Imagen</string>
+    <string name="nombreFood">Nombre</string>
+    <string name="precioFood">Precio</string>
+    <string name="precioSubtotal">Subtotal:</string>
+    <string name="buttonLimpiar">Limpiar</string>
+    <string name="Desarrolladores">Desarrolladores</string>
+    <string name="Coordinador">Coordinador</string>
+    <string name="title_activity_activity_acercade">Activity_acercade</string>
+</resources>

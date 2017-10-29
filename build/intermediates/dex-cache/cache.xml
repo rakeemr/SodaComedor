@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.android\build-cache\ec5715516712b251c4d20ac526d55dcf109375e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9435267b48798ce378f6245b9f599bd25369372c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_9aefff237bd9ffd8c2708882e9e97a3ac05bdcc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.android\build-cache\d18f80b29f398e43bc9f23e023f3c62c5cb115d2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d337ffa08686eac9db8289954143d512534bfa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_2b7d12897397a620c2b86897f129e6c1df5c4163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.android\build-cache\7a8d596b2c64e5ef57ade46c124710a6eedc590b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_18facb5507bb6d4bdf5edb6babe420c3e224d8c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Escritorio\LoginComedor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cda5283c410a8e6f2d6f883336d00569da648d">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8641432aba97f8a7f1a5143d5653258eed1b1da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Escritorio\LoginComedor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b6da2c91bffb3f6d36ce34b0d1c8345af88ffcc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_4c909eb4796be3bad142ea3580a3ab32b2f702fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.2.0_949bec32570725384c7e6ccbec4b353ef9576c72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_6aaebf569a188ec03f61ed350cc9276e619cb4c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_07aec77c3223a1ba4d4339c57019b51e1c2dd324\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.android\build-cache\b285490ada4362d6a0d77d04c8b13da625f71513\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_21818f44172cfca5c338e7ec9d17b62a0f9d9092\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_be48d61d9969dbf3bb910ddad98b9bdecafc9aa3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.android\build-cache\21a1ae9f89181aaf725155f6493f8608d77074d6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9ddb3acdf7e5aa4cd6112aa933c9850601970d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_31c03aedc2a3ae0722fd237908f902295183756c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rfmr-\.android\build-cache\ec5715516712b251c4d20ac526d55dcf109375e2\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Escritorio\LoginComedor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_1c5e9ec94ee5fb3086a24a18f058fe65e141ad55\classes.dex" />
+    </item>
+
+</items>
