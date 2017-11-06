@@ -18,7 +18,10 @@
         <activity
             android:name=".Login"
             android:parentActivityName=".Login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,12 +32,16 @@
             android:name=".MenuComidas"
             android:label="@string/menucomidas"
             android:parentActivityName=".Login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            ></activity>
         <activity
             android:name=".MainAcercaDe"
             android:label="@string/mainacerca"
             android:parentActivityName=".Login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            ></activity>
         <activity android:name=".SeleccionarComida"></activity>
     </application>
 

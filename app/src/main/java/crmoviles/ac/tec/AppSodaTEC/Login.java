@@ -65,13 +65,6 @@ public class Login extends AppCompatActivity {
         btnLogin = (Button) findViewById(R.id.btnAceptar);
         btnLogin.setBackgroundDrawable(getResources().getDrawable(R.drawable.buttoncolorchange));
         imgFoto = (ImageView) findViewById(R.id.btimgImagenFondo);
-        imgFoto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(getBaseContext(), MenuComidas.class);
-                startActivity(myIntent);
-            }
-        });
 
         // poner los metodos para escuchar acciones
         carnet.addTextChangedListener(contadorLetras);
