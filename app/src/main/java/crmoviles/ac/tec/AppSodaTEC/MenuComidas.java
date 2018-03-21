@@ -51,7 +51,7 @@ import retrofit.client.Response;
 
 public class MenuComidas extends AppCompatActivity {
 
-    String baseurl = "http://172.19.32.10:80/WebServiceSodaTec";//"http://172.24.20.59:80";
+    String baseurl = "http://172.24.4.67:80/WebServiceSodaTec";//"http://172.24.20.59:80";
     private Conexion serverApi;
     Spinner spinner1;
     ListView listaComidas;

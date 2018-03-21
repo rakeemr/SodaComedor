@@ -44,7 +44,7 @@ public class Login extends AppCompatActivity {
     String nombre;
     int id, saldo;
     TextView titulo;
-    String baseurl = "http://172.19.32.10:80/WebServiceSodaTec";//"http://172.24.20.59:80";
+    String baseurl = "http://172.19.32.10:80/WebServiceSodaTec";//"http://172.24.20.59:80";//172.19.32.10:80
     private Conexion serverApi;
     CheckBox estadoCB;
     Button btnLogin;
