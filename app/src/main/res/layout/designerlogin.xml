@@ -34,7 +34,7 @@
             android:layout_height="128dp"
             android:id="@+id/btimgImagenFondo"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/circle"
+            android:background="@drawable/circle_soda"
             android:layout_weight="1.16"
             android:clickable="true"/>
 
